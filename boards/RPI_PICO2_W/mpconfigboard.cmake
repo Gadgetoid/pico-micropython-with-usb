@@ -1,8 +1,6 @@
 # cmake file for Raspberry Pi Pico 2 W
 
-set(PICO_BOARD "pico2_w_b")
-set(PICO_BOARD_HEADER_DIRS ${CMAKE_CURRENT_LIST_DIR})
-set(PICO_NUM_GPIOS 48)
+set(PICO_BOARD "pico2_w")
 
 # To change the gpio count for QFN-80
 # set(PICO_NUM_GPIOS 48)
